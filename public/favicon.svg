@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 64 64" aria-labelledby="title" role="img">
+  <title>House of Wisdom</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#3f2b96"/>
+      <stop offset="100%" stop-color="#1f1b2e"/>
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="64" height="64" rx="12" fill="url(#bg)"/>
+  <!-- Open book icon -->
+  <g fill="none" stroke="#f5d76e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Spine -->
+    <path d="M32 18v28"/>
+    <!-- Left cover/page -->
+    <path d="M32 20c-6-4-12-4-18 0v22c6-4 12-4 18 0"/>
+    <!-- Right cover/page -->
+    <path d="M32 20c6-4 12-4 18 0v22c-6-4-12-4-18 0"/>
+    <!-- Bookmark/ribbon -->
+    <path d="M32 30l3 4-3 3"/>
+  </g>
+  <!-- Subtle glow -->
+  <circle cx="32" cy="14" r="3" fill="#f5d76e" opacity="0.2"/>
+</svg>

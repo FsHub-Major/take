@@ -17,6 +17,16 @@ the clash : upgrade you to next milestone.
 
 ![challenge validation](pics/sigin_page.png)
 
+## Setup
+
+1. Copy `.env.example` to `.env.local` and adjust the values if you rotate the Supabase keys.
+2. Install dependencies and start the dev server:
+
+```bash
+npm install
+npm run dev
+```
+
 progression of names by level. name are infinite. from great to greater.
 
 🪶 Nobiezy (Newbie / Beginner)
